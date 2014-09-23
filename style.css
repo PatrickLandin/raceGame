@@ -1,0 +1,48 @@
+html {
+  font-family: Verdana;
+}
+
+#announcer {
+  width: 900px;
+  height: 80px;
+  border: 3px dashed black;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#raceContainer {
+  float: left;
+  width: 600px;
+  height: 450px;
+  border: 4px dotted red;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+.racer {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+  left: 0px;
+}
+
+#infoContainer {
+  float: right;
+  width: 400px;
+  height: 450px;
+  border: 3px dashed black;
+  margin-right: 30px;
+  padding: 15px 15px 15px 15px;
+}
+
+#raceButton {
+  width: 370px;
+  height: 120px;
+  background-color: #CCE6FF;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+  line-height: 20px;
+  vertical-align: middle;
+}
